@@ -1,8 +1,8 @@
 name := "com.github.raka.gqltypegen"
+organization := "ranjit-kaliraj"
 
 version := "1.0"
 
-organization := "com.rew3"
 
 scalaVersion := "2.11.8"
 
