@@ -1,7 +1,7 @@
 # GraphQL-Type-Generator
 A Scala Case Class to Sangria-GraphQL Type Converter.
 
-##Getting Started
+## Getting Started
 1. Clone the Project:
 `git clone git@github.com:RanjitKaliraj/GraphQL-Type-Generator.git`
 2. Build:
@@ -11,7 +11,7 @@ Import library in your project.
 *Note: You can build with your project-matching scala version. Current Version is 2.11.8.*
 `libraryDependencies += "com.github.raka" % "gql-type-generator" % "1.0"`
 
-###Usage:
+# Usage:
 Converting the following Foo into Sangria-GraphQL type.
 ```
 case class Foo(a: String, b: List[Bar], c: Option[Bar], lst: List[Int], date: Option[List[Date]])
@@ -46,8 +46,8 @@ generator.generateQueryTypes[Foo]
 generator.generateMutationTypes[Foo]
 ```
 
-##Output:
-###Query Types
+## Output:
+### Query Types
 ```
 import sangria.schema._
 import Main.Foo
@@ -103,7 +103,7 @@ object FooQueryTypeDefinition{
 }
 ```
 
-###Mutation Types
+### Mutation Types
 ```import sangria.schema._
 import Main.Foo
 import java.util.Date
