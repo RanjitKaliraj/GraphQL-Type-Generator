@@ -1,5 +1,5 @@
-name := "com.github.raka.gqltypegen"
-organization := "ranjit-kaliraj"
+name := "gql-type-generator"
+organization := "com.github.raka"
 
 version := "1.0"
 
